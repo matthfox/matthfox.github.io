@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <!-- 
+      Matthew Fox 
+      CIS 111 Lab05, Task 2
+      BMI Calculator
+      -->
+      <link href="styles.css" rel="stylesheet">
+      <title>Matthew Fox</title>
+   </head>
+   <body>
+      <h1>BMI Calculator</h1>
+      <label>Height(ft)
+         <input type="number" id="heightInFeet">
+      </label>
+      <br>
+      <label>Height(in)
+         <input type="number" id="heightInInches">
+      </label>
+      <br>
+      <label>Weight
+         <input type="number" id="weight">
+      </label>
+      <br>
+      <button onclick="calcBMI()">Calc BMI</button>
+      <button onclick="reset()">Clear</button>
+      <h3>BMI: <span id="results"></span></h3>
+      <h3>Category: <span id="category"></span></h3>
+      <script src="bmi.js"></script>
+   </body>
+</html>

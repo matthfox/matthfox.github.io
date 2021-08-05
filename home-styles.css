@@ -1,0 +1,26 @@
+body {
+	background-color: #c1f0fa;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+h1 {
+	color: #24150e;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-size: 60px;
+	margin-top: 0px;
+}
+
+p, a {
+	color: #24150e;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+}
+a {
+	padding: 10px;
+}

@@ -1,0 +1,35 @@
+/* 
+Matthew Fox
+CIS 111 Lab05, Task 2
+BMI Calculator
+ */
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #3C4043;
+}
+
+h1, h3 {
+    color: #202124;
+}
+
+#heightInFeet, #heightInInches, #weight, button {
+    margin-bottom: 10px;
+}
+
+#heightInFeet {
+    margin-left: 10px;
+}
+#heightInInches {
+    margin-left: 5px;
+}
+#weight {
+    margin-left: 24px;
+}
+
+button {
+    padding: 5px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+}

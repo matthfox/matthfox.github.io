@@ -1,0 +1,64 @@
+body {
+	background-color: #91cdd5;
+}
+
+h1 {
+	color: #24150e;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p, a {
+	color: #24150e;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+}
+
+a {
+	padding: 10px;
+}
+
+#general {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+}
+
+#general td {
+	color: #24150e;
+	text-align: left;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+}
+
+
+#additionalInfo {
+	text-align: center;
+}
+
+#hobbies, #favorites{
+	display: inline-block;
+	border: solid;
+	border-color: #24150e;
+	margin: 25px;
+	color:  #24150e;
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+}
+
+th {
+	text-align: left;
+	padding: 10px;
+	font-size: 20px;
+}
+
+td {
+	text-align: center;
+	padding: 3px 10px;
+}

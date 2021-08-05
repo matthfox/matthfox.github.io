@@ -1,0 +1,23 @@
+/*
+Matthew Fox
+CIS 111 Lab05, Task 1
+Calculate Shipping Charges
+ */
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #3C4043;
+}
+
+h1 {
+    color: #202124;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+}
+

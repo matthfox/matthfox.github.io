@@ -1,0 +1,40 @@
+/*
+Matthew Fox
+CIS 111 Lab06, Task 1
+Simple Store
+ */
+
+body {
+    background-color: bisque;
+    font-family: Roboto, sans-serif;
+}
+table {
+    margin: 10px;
+    border: solid 1px grey;
+    background-color: white;
+}
+td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+#form div {
+    margin: 5px;
+}
+button {
+    padding: 5px;
+    color: white;
+}
+#addItemButton {
+    background-color: blue;
+}
+#newOrderButton {
+    background-color: red;
+}
+
+
+
+
+
+

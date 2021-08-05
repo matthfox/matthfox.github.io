@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <!-- 
+      Matthew Fox 
+      CIS 111 Lab04, Task 1
+      Fahrenheit to Celsius temperature converter
+      -->
+      <title>Matthew Fox</title>
+   </head>
+   <body>
+      <h1>Temperature Converter</h1>
+      <script type="text/javascript">
+         "use strict";
+         //Use prompt to “Input a Fahrenheit temperature”, store in a variable (create a meaningful name).
+         const fahrenheit = parseFloat(prompt("Input a Fahrenheit temperature"));
+
+         //Convert to Celsius, store in another variable (create a meaningful name)
+         const celsius = parseFloat((fahrenheit - 32) * 5 / 9);
+
+         //Create a string with the html to display the output as shown below in paragraph tags.  Use toFixed(1) to display both temperatures with 1 decimal place.
+         let html = "<p>" + "Fahrenheit = " + fahrenheit.toFixed(1) + "</p>";
+         html += "<p>" + "Celsius = " + celsius.toFixed(1) + "</p>";
+         html += "<p>Coded by Matthew Fox</p>";
+
+         //Use document.write to display the results on your html page
+         document.write(html);
+      </script>
+   </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <!-- 
+      Matthew Fox 
+      CIS 111 Lab06, Task 1
+      Simple Store
+      -->
+      <link href="styles.css" rel="stylesheet">
+      <title>Matthew Fox</title>
+   </head>
+   <body>
+      <h1>The Burrow</h1>
+      <div id="menu"></div>
+      <div id="form">
+         <div>
+            <label for= "itemname">Item</label>
+            <input type="text" name="itemname" id="itemname">
+         </div>
+         <div>
+            <label for= "quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity">
+         </div>
+         <div>
+            <button onclick="addItem()" id="addItemButton">Add Item</button>
+            <button onclick="newOrder()" id="newOrderButton">New Order</button>
+         </div>
+      </div>
+      <div><h3>Invoice Total $<span id= "total"></span></h3></div>
+      <textarea id="receipt" cols="50" rows="10"></textarea>
+      <script src="storeSTARTER.js"></script>
+   </body>
+</html>
